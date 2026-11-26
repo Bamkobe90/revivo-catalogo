@@ -3,6 +3,14 @@
 App de una sola página (`index.html`) que convierte una **idea, historia, escena o diálogo** en prompts
 **positivos y negativos**, siempre en **español e inglés**, para imagen y vídeo.
 
+## Instalar en Windows (acceso directo en el escritorio)
+1. Descarga `Generador-de-Prompts-Windows.zip` y descomprímelo (clic derecho → *Extraer todo*).
+2. Haz doble clic en `Instalar.bat`. Copia el programa a `%LOCALAPPDATA%\GeneradorPrompts` y crea en el escritorio
+   el acceso directo **Generador de Prompts**, que lo abre en su propia ventana de Microsoft Edge, como una app.
+3. Si Windows muestra *"Windows protegió su PC"*, pulsa *Más información → Ejecutar de todas formas*
+   (el aviso aparece con cualquier .bat descargado; el script es texto legible, ábrelo con el Bloc de notas para revisarlo).
+4. Para quitarlo: ejecuta `Desinstalar.bat` (borra el acceso directo y la carpeta).
+
 ## Cómo usarla
 1. Abre `index.html` con doble clic en cualquier navegador (Chrome, Edge, Firefox). No necesita instalación ni internet.
 2. Escribe tu idea (en español o inglés), elige el sistema y el medio final (o deja todo en *Auto*).
